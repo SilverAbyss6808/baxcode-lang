@@ -1,0 +1,3 @@
+program HelloWorld() {
+    cprint("Hello World!");
+};
