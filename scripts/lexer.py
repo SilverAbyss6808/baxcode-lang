@@ -1,12 +1,14 @@
 
+import re
 import sys
 import traceback
 
 # goal of this file is to return a token stream to the caller
 
-class BcoLex:
+class BcoToken:
 
-    known_tokens = []
+    program = re.compile(r'program [A-Z]\w*\(.*\)\s?{.*};')
+    # comment = 
 
     def __init__(self, source_code):
         self.source_code = source_code

@@ -1,7 +1,7 @@
 
 program HelloWorld() {
 
-    cprint("Hello World!");
+    cprint("Hello World!");  // this is a comment
 
 };
 
