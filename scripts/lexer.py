@@ -7,36 +7,42 @@ import traceback
 
 class BcoToken:
 
-    program = re.compile(r'program [A-Z]\w*\(.*\)\s?{.*};')
-    # comment = 
+    program = re.compile(r'program [A-Z]\w*\(.*\)\s?{.*};', re.S)  # re.S makes the dot take the newline as well
+    comment = re.compile(r'/\/\/.*/')
+    string = re.compile(r'')
 
     def __init__(self, source_code):
         self.source_code = source_code
         self.line_num = 0
 
-    def iter_tokens(self):
-        for token in self:
-            pass
+    def get_token_type(self):
+        
+
+
+# def handle_program(code):
     
-    def iter_lines(self):
-        for line in self.source_code.split('\n'):
-            self.line_num += 1
-            print(f'{self.line_num}     {line}')
 
-    def throw_err(self, error_message):
-        raise ValueError(f'Line {self.line_num}: {error_message}')
-
-    def tokenerize(self):
-        pass
+def throw_err(error_type):
+    match error_type:
+        case 'no_main':
+            raise Exception(f'No runnable program found.')
 
 
-try:
+def get_tokens(code):
+    # find program code in file
+    if re.match(BcoToken.program, code):
+        program = re.match(BcoToken.program, code).group()
+    else: throw_err('no_main')
 
-    with open(sys.argv[1], 'rt') as f:
-        code = f.read()
-    codefile = BcoLex(code)
-    codefile.tokenerize()
+    print('hi')
 
-except ValueError as v: print(v)
-except Exception: traceback.print_exc()
+# try:
+
+# with open(sys.argv[1], 'rt') as f:
+f = open('bco_examples/HelloWorld.bco')
+code = f.read().strip()
+tokens = get_tokens(code)
+    
+# except ValueError as v: print(v)
+# except Exception: traceback.print_exc()
 
