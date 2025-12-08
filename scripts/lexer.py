@@ -7,9 +7,13 @@ import traceback
 
 class BcoToken:
 
-    program = re.compile(r'program [A-Z]\w*\(.*\)\s?{.*};', re.S)  # re.S makes the dot take the newline as well
-    comment = re.compile(r'/\/\/.*/')
+    program = re.compile(r'program [a-z]\w*\(.*\) returns \w+\s?{.*};', re.S)  # re.S makes the dot take the newline as well
+    structure = re.compile(r'')
+    comment = re.compile(r'//.*')
     string = re.compile(r'')
+
+    structures = []
+    items = []
 
     def __init__(self, source_code):
         self.source_code = source_code
