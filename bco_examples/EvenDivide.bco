@@ -1,9 +1,9 @@
-program even_divide() returns none {
+program even_divide() returns NONE {
 
     int num1;  // here, we define two integers
     int num2;  // to hold user input
 
-    cprint(“Enter two numbers here: “);
+    cprint("Enter two numbers here: ");
 
     num1 = cast(cread(), int);  // casts the values read from the console
     num2 = cast(cread(), int);  // to integers.
@@ -11,7 +11,7 @@ program even_divide() returns none {
     if (num1 % num2) == 0 then {
         cprint( "{num2} divides {num1} evenly!" );
     } else {
-        cprint( “{num2} does not divide {num1} evenly.” );
+        cprint( "{num2} does not divide {num1} evenly." );
     };
 
     return;
