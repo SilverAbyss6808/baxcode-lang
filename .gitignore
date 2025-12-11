@@ -1,2 +1,3 @@
 gitignore_folder
 .vscode
+scripts/__pycache__

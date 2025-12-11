@@ -1,5 +1,5 @@
 
-program hello_world() returns none {
+program HelloWorld() returns NONE {
     
     cprint("Hello World!");  // this is a comment
 
