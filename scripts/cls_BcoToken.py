@@ -3,7 +3,6 @@
 # like actually. my goat
 
 from cls_BcoError import BcoError as berr
-from operator import itemgetter
 import re
 
 
@@ -11,14 +10,7 @@ class BcoToken:
 
     # the order that tokens are looked for in
     ttypes = [  'item_comment',
-              
-                'type_integer',         
-                'type_float',           
-                'type_char',            
-                'type_bool',           
-                'type_none',            
-                'type_array',           
-                'type_string',
+                'literal_string',
 
                 # operators with two characters (search for these first)
                 'operator_assadd',      
@@ -51,6 +43,7 @@ class BcoToken:
                 'symbol_openbrace',     
                 'symbol_closebrace',    
                 'symbol_semicolon',
+                'symbol_comma',
                      
                 'structure_program',    
                 'structure_function',
@@ -60,14 +53,14 @@ class BcoToken:
                 'statement_if',         
                 'statement_then',       
                 'statement_else',       
-                'statement_for',        
                 'statement_while',
+                'statement_for',        
 
                 'function_typecast',    
-                'function_gettype',     
-                'function_baseround',   
+                'function_gettype',
                 'function_roundup',     
-                'function_rounddown',   
+                'function_rounddown',     
+                'function_baseround',      
                 'function_consoleprint',
                 'function_consoleread', 
                 'function_fileprint',   
@@ -75,13 +68,20 @@ class BcoToken:
                 'function_fileopen',    
                 'function_fileclose',   
                 'function_arraysort',         
-
-                'literal_string',        
+        
                 'literal_char',         
                 'literal_bool',         
                 'literal_none',
 
                 'item_varname',
+
+                'type_integer',         
+                'type_float',           
+                'type_char',            
+                'type_bool',           
+                'type_none',            
+                'type_array',           
+                'type_string',
 
                 'literal_float',
                 'literal_integer'
@@ -150,6 +150,7 @@ class BcoToken:
             case 'symbol_openbrace'     : return re.compile(r'{')
             case 'symbol_closebrace'    : return re.compile(r'}')
             case 'symbol_semicolon'     : return re.compile(r';')
+            case 'symbol_comma'         : return re.compile(r',')
 
             # define structures/statements. a structure is any number of words before braces.
             case 'structure_program'    : return re.compile(r'program')
@@ -223,6 +224,7 @@ class BcoToken:
             case 'symbol_openbrace'     : return BcoToken(token, '{', match_obj.start(), match_obj.end())
             case 'symbol_closebrace'    : return BcoToken(token, '}', match_obj.start(), match_obj.end())
             case 'symbol_semicolon'     : return BcoToken(token, ';', match_obj.start(), match_obj.end())
+            case 'symbol_comma'         : return BcoToken(token, ',', match_obj.start(), match_obj.end())
  
             case 'structure_program'    : return BcoToken(token, 'program', match_obj.start(), match_obj.end())
             case 'structure_function'   : return BcoToken(token, 'function', match_obj.start(), match_obj.end())

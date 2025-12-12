@@ -30,14 +30,14 @@ def get_tokens(code):
     sorted_matches = btk.sort_tokens(matches)
 
     # TODO: fix the {}{}; that prints after strings, for some reason
-    for match in sorted_matches: print(str(match.value), end=' ')  # make return
+    for match in sorted_matches: print(f'{match.ttype}\t\t\t {match.value}')  # make return
     # return matches
 
 
 # try:
 # with open(sys.argv[1], 'rt') as f:
 
-f = open('bco_examples/EvenDivide.bco')
+f = open('bco_examples/TryEverything.bco')
 code = f.read()
 tokens = get_tokens(code)
     
