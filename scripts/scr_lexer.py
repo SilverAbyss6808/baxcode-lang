@@ -31,16 +31,9 @@ def get_tokens(code):
     return sorted_matches
 
 
-# try:
-# with open(sys.argv[1], 'rt') as f:
-
 f = open('bco_examples/TryEverything.bco')
 code = f.read()
 tokens = get_tokens(code)
 
 for token in tokens: print(str(token.value), end=' ')
-
-    
-# except ValueError as v: print(v)
-# except Exception: traceback.print_exc()
 
