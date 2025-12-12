@@ -19,7 +19,6 @@ def get_tokens(code):
         for match in match_iter:
             token_already_known = False
             for known_token in matches:
-                # TODO make sure you handle cases where variable is referenced inside string correctly
                 if (match.start() >= known_token.start_location and match.end() <= known_token.end_location):  # or, if it starts and ends inside another token
                     token_already_known = True
                     continue
@@ -29,9 +28,7 @@ def get_tokens(code):
 
     sorted_matches = btk.sort_tokens(matches)
 
-    # TODO: fix the {}{}; that prints after strings, for some reason
-    for match in sorted_matches: print(f'{match.ttype}\t\t\t {match.value}')  # make return
-    # return matches
+    return sorted_matches
 
 
 # try:
@@ -40,6 +37,9 @@ def get_tokens(code):
 f = open('bco_examples/TryEverything.bco')
 code = f.read()
 tokens = get_tokens(code)
+
+for token in tokens: print(str(token.value), end=' ')
+
     
 # except ValueError as v: print(v)
 # except Exception: traceback.print_exc()
