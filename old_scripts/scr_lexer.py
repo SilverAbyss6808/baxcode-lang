@@ -1,12 +1,6 @@
 
-# goal of this file is to return a token stream to the caller
-
-from cls_BcoError import BcoError as berr
 from cls_BcoToken import BcoToken as btk
-
 import re
-import sys
-import traceback
 
 
 def get_tokens(code):
@@ -30,10 +24,9 @@ def get_tokens(code):
 
     return sorted_matches
 
-
 f = open('bco_examples/TryEverything.bco')
 code = f.read()
 tokens = get_tokens(code)
 
-for token in tokens: print(str(token.value), end=' ')
+for token in tokens: print(token)
 

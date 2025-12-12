@@ -263,4 +263,5 @@ class BcoToken:
 
             case _                      : berr(ValueError, f'get_token error: token {token} value {match_obj.group()} not of correct type').throw_error()
 
-    
+for token in BcoToken.ttypes:
+    print(f'{token.upper()}: ;') 
