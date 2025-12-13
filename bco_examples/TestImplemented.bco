@@ -1,0 +1,20 @@
+program TestImplemented() returns none {                                             // program def, nonetype return 
+
+    int Num_1 = 58907;                                                              // integer definition
+    int Num_2;                                                                  // another integer definition
+    bool Boolean = FALSE;                                                           // boolean definition
+    string Str = "This is a string. !@#$%^&*()_ <-- this is to test the strings";   // string definition
+
+    int Add = 5 + 5;                                                                // addition, assignment
+    Num_2 = Num_1 - 7;                                                              // subtraction, assignment
+    int Num3 = 7 * 7 * 2;                                                       // multiplication, division
+    int Num4 = 10 / 5;
+
+    bool B1 = Num_1 < Num_2;                                                        // less than
+    bool B2 = Num_1 > Num_2;                                                        // greater than
+
+    cprint("Enter an integer: ");                                                   // printing to terminal
+
+    return NONE;
+
+};

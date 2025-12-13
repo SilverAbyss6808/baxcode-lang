@@ -1,1 +1,0 @@
-@REM this will run examples when im ready. unfortunately currently i am not
