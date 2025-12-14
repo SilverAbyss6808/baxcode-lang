@@ -8,12 +8,66 @@ else:
 # This class defines a complete listener for a parse tree produced by BcodeParser.
 class BcodeListener(ParseTreeListener):
 
-    # Enter a parse tree produced by BcodeParser#start_.
-    def enterStart_(self, ctx:BcodeParser.Start_Context):
+    # Enter a parse tree produced by BcodeParser#opr_arith.
+    def enterOpr_arith(self, ctx:BcodeParser.Opr_arithContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#start_.
-    def exitStart_(self, ctx:BcodeParser.Start_Context):
+    # Exit a parse tree produced by BcodeParser#opr_arith.
+    def exitOpr_arith(self, ctx:BcodeParser.Opr_arithContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#opr_cmp.
+    def enterOpr_cmp(self, ctx:BcodeParser.Opr_cmpContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#opr_cmp.
+    def exitOpr_cmp(self, ctx:BcodeParser.Opr_cmpContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#sym.
+    def enterSym(self, ctx:BcodeParser.SymContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#sym.
+    def exitSym(self, ctx:BcodeParser.SymContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#str.
+    def enterStr(self, ctx:BcodeParser.StrContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#str.
+    def exitStr(self, ctx:BcodeParser.StrContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#lit.
+    def enterLit(self, ctx:BcodeParser.LitContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#lit.
+    def exitLit(self, ctx:BcodeParser.LitContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#itm.
+    def enterItm(self, ctx:BcodeParser.ItmContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#itm.
+    def exitItm(self, ctx:BcodeParser.ItmContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#typ.
+    def enterTyp(self, ctx:BcodeParser.TypContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#typ.
+    def exitTyp(self, ctx:BcodeParser.TypContext):
         pass
 
 
@@ -95,6 +149,15 @@ class BcodeListener(ParseTreeListener):
 
     # Exit a parse tree produced by BcodeParser#program.
     def exitProgram(self, ctx:BcodeParser.ProgramContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#start_.
+    def enterStart_(self, ctx:BcodeParser.Start_Context):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#start_.
+    def exitStart_(self, ctx:BcodeParser.Start_Context):
         pass
 
 

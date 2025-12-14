@@ -1,4 +1,4 @@
-program TestImplemented() returns none {                                             // program def, nonetype return 
+program TestImplemented() returns none {                                            // program def, nonetype return 
 
     int Num_1 = 58907;                                                              // integer definition
     int Num_2;                                                                      // another integer definition

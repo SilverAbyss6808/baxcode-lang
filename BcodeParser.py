@@ -10,46 +10,62 @@ else:
 
 def serializedATN():
     return [
-        4,1,36,120,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
-        6,2,7,7,7,2,8,7,8,2,9,7,9,1,0,1,0,1,1,1,1,1,1,4,1,26,8,1,11,1,12,
-        1,27,1,2,1,2,1,2,1,2,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,4,1,4,3,4,43,
-        8,4,1,4,1,4,1,4,1,4,3,4,49,8,4,1,5,1,5,1,5,1,5,1,5,1,5,3,5,57,8,
-        5,1,5,1,5,1,5,1,5,3,5,63,8,5,1,6,1,6,1,6,5,6,68,8,6,10,6,12,6,71,
-        9,6,1,6,1,6,1,7,1,7,1,7,1,7,1,7,3,7,80,8,7,1,8,1,8,1,8,1,8,1,8,1,
-        8,1,8,3,8,89,8,8,1,8,1,8,1,9,1,9,1,9,1,9,1,9,3,9,98,8,9,5,9,100,
-        8,9,10,9,12,9,103,9,9,1,9,1,9,1,9,1,9,1,9,5,9,110,8,9,10,9,12,9,
-        113,9,9,1,9,1,9,1,9,1,9,1,9,1,9,0,0,10,0,2,4,6,8,10,12,14,16,18,
-        0,1,2,0,22,22,34,34,131,0,20,1,0,0,0,2,22,1,0,0,0,4,29,1,0,0,0,6,
-        33,1,0,0,0,8,36,1,0,0,0,10,50,1,0,0,0,12,64,1,0,0,0,14,74,1,0,0,
-        0,16,88,1,0,0,0,18,92,1,0,0,0,20,21,3,18,9,0,21,1,1,0,0,0,22,25,
-        7,0,0,0,23,24,5,30,0,0,24,26,7,0,0,0,25,23,1,0,0,0,26,27,1,0,0,0,
-        27,25,1,0,0,0,27,28,1,0,0,0,28,3,1,0,0,0,29,30,7,0,0,0,30,31,5,31,
-        0,0,31,32,7,0,0,0,32,5,1,0,0,0,33,34,5,36,0,0,34,35,5,22,0,0,35,
-        7,1,0,0,0,36,37,3,6,3,0,37,48,5,9,0,0,38,49,5,34,0,0,39,42,5,10,
-        0,0,40,43,3,2,1,0,41,43,3,4,2,0,42,40,1,0,0,0,42,41,1,0,0,0,43,44,
-        1,0,0,0,44,45,5,11,0,0,45,49,1,0,0,0,46,49,3,2,1,0,47,49,3,4,2,0,
-        48,38,1,0,0,0,48,39,1,0,0,0,48,46,1,0,0,0,48,47,1,0,0,0,49,9,1,0,
-        0,0,50,51,5,22,0,0,51,62,5,9,0,0,52,63,5,34,0,0,53,56,5,10,0,0,54,
-        57,3,2,1,0,55,57,3,4,2,0,56,54,1,0,0,0,56,55,1,0,0,0,57,58,1,0,0,
-        0,58,59,5,11,0,0,59,63,1,0,0,0,60,63,3,2,1,0,61,63,3,4,2,0,62,52,
-        1,0,0,0,62,53,1,0,0,0,62,60,1,0,0,0,62,61,1,0,0,0,63,11,1,0,0,0,
-        64,65,5,19,0,0,65,69,5,10,0,0,66,68,7,0,0,0,67,66,1,0,0,0,68,71,
-        1,0,0,0,69,67,1,0,0,0,69,70,1,0,0,0,70,72,1,0,0,0,71,69,1,0,0,0,
-        72,73,5,11,0,0,73,13,1,0,0,0,74,79,5,18,0,0,75,80,5,34,0,0,76,80,
-        5,22,0,0,77,80,3,2,1,0,78,80,3,4,2,0,79,75,1,0,0,0,79,76,1,0,0,0,
-        79,77,1,0,0,0,79,78,1,0,0,0,80,15,1,0,0,0,81,89,3,2,1,0,82,89,3,
-        4,2,0,83,89,3,6,3,0,84,89,3,8,4,0,85,89,3,10,5,0,86,89,3,12,6,0,
-        87,89,3,14,7,0,88,81,1,0,0,0,88,82,1,0,0,0,88,83,1,0,0,0,88,84,1,
-        0,0,0,88,85,1,0,0,0,88,86,1,0,0,0,88,87,1,0,0,0,89,90,1,0,0,0,90,
-        91,5,14,0,0,91,17,1,0,0,0,92,93,5,16,0,0,93,94,5,22,0,0,94,101,5,
-        10,0,0,95,97,3,6,3,0,96,98,5,15,0,0,97,96,1,0,0,0,97,98,1,0,0,0,
-        98,100,1,0,0,0,99,95,1,0,0,0,100,103,1,0,0,0,101,99,1,0,0,0,101,
-        102,1,0,0,0,102,104,1,0,0,0,103,101,1,0,0,0,104,105,5,11,0,0,105,
-        106,5,17,0,0,106,107,5,36,0,0,107,111,5,12,0,0,108,110,3,16,8,0,
-        109,108,1,0,0,0,110,113,1,0,0,0,111,109,1,0,0,0,111,112,1,0,0,0,
-        112,114,1,0,0,0,113,111,1,0,0,0,114,115,3,14,7,0,115,116,5,13,0,
-        0,116,117,5,14,0,0,117,118,5,0,0,1,118,19,1,0,0,0,11,27,42,48,56,
-        62,69,79,88,97,101,111
+        4,1,29,160,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
+        2,14,7,14,2,15,7,15,2,16,7,16,1,0,1,0,1,1,1,1,1,2,1,2,1,3,1,3,1,
+        4,1,4,1,5,1,5,1,6,1,6,1,7,1,7,3,7,51,8,7,1,7,1,7,1,7,3,7,56,8,7,
+        4,7,58,8,7,11,7,12,7,59,1,8,1,8,3,8,64,8,8,1,8,1,8,1,8,3,8,69,8,
+        8,1,9,1,9,1,9,1,10,1,10,1,10,1,10,1,10,1,10,3,10,80,8,10,1,10,1,
+        10,1,10,1,10,3,10,86,8,10,1,11,1,11,1,11,1,11,1,11,1,11,3,11,94,
+        8,11,1,11,1,11,1,11,1,11,3,11,100,8,11,1,12,1,12,1,12,1,12,5,12,
+        106,8,12,10,12,12,12,109,9,12,1,12,1,12,1,13,1,13,1,13,1,13,1,13,
+        3,13,118,8,13,1,13,1,13,1,14,1,14,1,14,1,14,1,14,1,14,3,14,128,8,
+        14,1,14,1,14,1,15,1,15,1,15,1,15,1,15,3,15,137,8,15,5,15,139,8,15,
+        10,15,12,15,142,9,15,1,15,1,15,1,15,1,15,1,15,5,15,149,8,15,10,15,
+        12,15,152,9,15,1,15,1,15,1,15,1,15,1,16,1,16,1,16,1,150,0,17,0,2,
+        4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,0,7,1,0,6,9,1,0,10,11,
+        1,0,13,18,1,0,19,20,3,0,5,5,22,23,29,29,2,0,2,4,24,24,1,0,25,28,
+        168,0,34,1,0,0,0,2,36,1,0,0,0,4,38,1,0,0,0,6,40,1,0,0,0,8,42,1,0,
+        0,0,10,44,1,0,0,0,12,46,1,0,0,0,14,50,1,0,0,0,16,63,1,0,0,0,18,70,
+        1,0,0,0,20,73,1,0,0,0,22,87,1,0,0,0,24,101,1,0,0,0,26,112,1,0,0,
+        0,28,127,1,0,0,0,30,131,1,0,0,0,32,157,1,0,0,0,34,35,7,0,0,0,35,
+        1,1,0,0,0,36,37,7,1,0,0,37,3,1,0,0,0,38,39,7,2,0,0,39,5,1,0,0,0,
+        40,41,7,3,0,0,41,7,1,0,0,0,42,43,7,4,0,0,43,9,1,0,0,0,44,45,7,5,
+        0,0,45,11,1,0,0,0,46,47,7,6,0,0,47,13,1,0,0,0,48,51,3,8,4,0,49,51,
+        5,24,0,0,50,48,1,0,0,0,50,49,1,0,0,0,51,57,1,0,0,0,52,55,3,0,0,0,
+        53,56,3,8,4,0,54,56,5,24,0,0,55,53,1,0,0,0,55,54,1,0,0,0,56,58,1,
+        0,0,0,57,52,1,0,0,0,58,59,1,0,0,0,59,57,1,0,0,0,59,60,1,0,0,0,60,
+        15,1,0,0,0,61,64,3,8,4,0,62,64,5,24,0,0,63,61,1,0,0,0,63,62,1,0,
+        0,0,64,65,1,0,0,0,65,68,3,2,1,0,66,69,3,8,4,0,67,69,5,24,0,0,68,
+        66,1,0,0,0,68,67,1,0,0,0,69,17,1,0,0,0,70,71,3,12,6,0,71,72,5,24,
+        0,0,72,19,1,0,0,0,73,74,3,18,9,0,74,85,5,12,0,0,75,86,3,8,4,0,76,
+        79,5,13,0,0,77,80,3,14,7,0,78,80,3,16,8,0,79,77,1,0,0,0,79,78,1,
+        0,0,0,80,81,1,0,0,0,81,82,5,14,0,0,82,86,1,0,0,0,83,86,3,14,7,0,
+        84,86,3,16,8,0,85,75,1,0,0,0,85,76,1,0,0,0,85,83,1,0,0,0,85,84,1,
+        0,0,0,86,21,1,0,0,0,87,88,5,24,0,0,88,99,5,12,0,0,89,100,3,8,4,0,
+        90,93,5,13,0,0,91,94,3,14,7,0,92,94,3,16,8,0,93,91,1,0,0,0,93,92,
+        1,0,0,0,94,95,1,0,0,0,95,96,5,14,0,0,96,100,1,0,0,0,97,100,3,14,
+        7,0,98,100,3,16,8,0,99,89,1,0,0,0,99,90,1,0,0,0,99,97,1,0,0,0,99,
+        98,1,0,0,0,100,23,1,0,0,0,101,102,5,21,0,0,102,107,5,13,0,0,103,
+        106,3,8,4,0,104,106,5,24,0,0,105,103,1,0,0,0,105,104,1,0,0,0,106,
+        109,1,0,0,0,107,105,1,0,0,0,107,108,1,0,0,0,108,110,1,0,0,0,109,
+        107,1,0,0,0,110,111,5,14,0,0,111,25,1,0,0,0,112,117,5,20,0,0,113,
+        118,3,8,4,0,114,118,5,24,0,0,115,118,3,14,7,0,116,118,3,16,8,0,117,
+        113,1,0,0,0,117,114,1,0,0,0,117,115,1,0,0,0,117,116,1,0,0,0,118,
+        119,1,0,0,0,119,120,5,17,0,0,120,27,1,0,0,0,121,128,3,14,7,0,122,
+        128,3,16,8,0,123,128,3,18,9,0,124,128,3,20,10,0,125,128,3,22,11,
+        0,126,128,3,24,12,0,127,121,1,0,0,0,127,122,1,0,0,0,127,123,1,0,
+        0,0,127,124,1,0,0,0,127,125,1,0,0,0,127,126,1,0,0,0,128,129,1,0,
+        0,0,129,130,5,17,0,0,130,29,1,0,0,0,131,132,5,1,0,0,132,133,5,24,
+        0,0,133,140,5,13,0,0,134,136,3,18,9,0,135,137,5,18,0,0,136,135,1,
+        0,0,0,136,137,1,0,0,0,137,139,1,0,0,0,138,134,1,0,0,0,139,142,1,
+        0,0,0,140,138,1,0,0,0,140,141,1,0,0,0,141,143,1,0,0,0,142,140,1,
+        0,0,0,143,144,5,14,0,0,144,145,5,19,0,0,145,146,3,12,6,0,146,150,
+        5,15,0,0,147,149,3,28,14,0,148,147,1,0,0,0,149,152,1,0,0,0,150,151,
+        1,0,0,0,150,148,1,0,0,0,151,153,1,0,0,0,152,150,1,0,0,0,153,154,
+        3,26,13,0,154,155,5,16,0,0,155,156,5,17,0,0,156,31,1,0,0,0,157,158,
+        3,30,15,0,158,33,1,0,0,0,16,50,55,59,63,68,79,85,93,99,105,107,117,
+        127,136,140,150
     ]
 
 class BcodeParser ( Parser ):
@@ -62,76 +78,75 @@ class BcodeParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "'+'", "'-'", 
-                     "'*'", "'/'", "'>'", "'<'", "'='", "'('", "')'", "'{'", 
-                     "'}'", "';'", "','", "'program'", "'returns'", "'return'", 
-                     "'cprint'", "<INVALID>", "'NONE'", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'int'", "'bool'", "'none'", "'string'" ]
+    literalNames = [ "<INVALID>", "'program'", "<INVALID>", "<INVALID>", 
+                     "<INVALID>", "<INVALID>", "'+'", "'-'", "'*'", "'/'", 
+                     "'>'", "'<'", "'='", "'('", "')'", "'{'", "'}'", "';'", 
+                     "','", "'returns'", "'return'", "'cprint'", "<INVALID>", 
+                     "'NONE'", "<INVALID>", "'int'", "'bool'", "'none'", 
+                     "'string'" ]
 
-    symbolicNames = [ "<INVALID>", "ITEM_COMMENT", "LITERAL_STRING", "OPERATOR_ADD", 
+    symbolicNames = [ "<INVALID>", "<INVALID>", "ITEM_COMMENT", "ITEM_WHITESPACE", 
+                      "ITEM_NEWLINE", "LITERAL_STRING", "OPERATOR_ADD", 
                       "OPERATOR_SUBTR", "OPERATOR_MULT", "OPERATOR_DIV", 
                       "OPERATOR_GTHAN", "OPERATOR_LTHAN", "OPERATOR_ASSIGN", 
                       "SYMBOL_OPENPAR", "SYMBOL_CLOSEPAR", "SYMBOL_OPENBRACE", 
                       "SYMBOL_CLOSEBRACE", "SYMBOL_SEMICOLON", "SYMBOL_COMMA", 
-                      "STRUCTURE_PROGRAM", "STRUCTURE_RETURNS", "STRUCTURE_RETURN", 
-                      "FUNCTION_CPRINT", "LITERAL_BOOL", "LITERAL_NONE", 
-                      "ITEM_VARNAME", "ITEM_WHITESPACE", "ITEM_NEWLINE", 
-                      "TYPE_INTEGER", "TYPE_BOOL", "TYPE_NONE", "TYPE_STRING", 
-                      "LITERAL_INTEGER", "OPERATOR_ARITH", "OPERATOR_CMP", 
-                      "SYMBOL", "STRUCTURE", "LITERAL", "ITEM", "TYPE" ]
+                      "STRUCTURE_RETURNS", "STRUCTURE_RETURN", "FUNCTION_CPRINT", 
+                      "LITERAL_BOOL", "LITERAL_NONE", "ITEM_VARNAME", "TYPE_INTEGER", 
+                      "TYPE_BOOL", "TYPE_NONE", "TYPE_STRING", "LITERAL_INTEGER" ]
 
-    RULE_start_ = 0
-    RULE_expr_arith = 1
-    RULE_expr_cmp = 2
-    RULE_var_def = 3
-    RULE_var_asg = 4
-    RULE_var_reasg = 5
-    RULE_fnc_cprint = 6
-    RULE_stm_return = 7
-    RULE_statement = 8
-    RULE_program = 9
+    RULE_opr_arith = 0
+    RULE_opr_cmp = 1
+    RULE_sym = 2
+    RULE_str = 3
+    RULE_lit = 4
+    RULE_itm = 5
+    RULE_typ = 6
+    RULE_expr_arith = 7
+    RULE_expr_cmp = 8
+    RULE_var_def = 9
+    RULE_var_asg = 10
+    RULE_var_reasg = 11
+    RULE_fnc_cprint = 12
+    RULE_stm_return = 13
+    RULE_statement = 14
+    RULE_program = 15
+    RULE_start_ = 16
 
-    ruleNames =  [ "start_", "expr_arith", "expr_cmp", "var_def", "var_asg", 
-                   "var_reasg", "fnc_cprint", "stm_return", "statement", 
-                   "program" ]
+    ruleNames =  [ "opr_arith", "opr_cmp", "sym", "str", "lit", "itm", "typ", 
+                   "expr_arith", "expr_cmp", "var_def", "var_asg", "var_reasg", 
+                   "fnc_cprint", "stm_return", "statement", "program", "start_" ]
 
     EOF = Token.EOF
-    ITEM_COMMENT=1
-    LITERAL_STRING=2
-    OPERATOR_ADD=3
-    OPERATOR_SUBTR=4
-    OPERATOR_MULT=5
-    OPERATOR_DIV=6
-    OPERATOR_GTHAN=7
-    OPERATOR_LTHAN=8
-    OPERATOR_ASSIGN=9
-    SYMBOL_OPENPAR=10
-    SYMBOL_CLOSEPAR=11
-    SYMBOL_OPENBRACE=12
-    SYMBOL_CLOSEBRACE=13
-    SYMBOL_SEMICOLON=14
-    SYMBOL_COMMA=15
-    STRUCTURE_PROGRAM=16
-    STRUCTURE_RETURNS=17
-    STRUCTURE_RETURN=18
-    FUNCTION_CPRINT=19
-    LITERAL_BOOL=20
-    LITERAL_NONE=21
-    ITEM_VARNAME=22
-    ITEM_WHITESPACE=23
-    ITEM_NEWLINE=24
+    T__0=1
+    ITEM_COMMENT=2
+    ITEM_WHITESPACE=3
+    ITEM_NEWLINE=4
+    LITERAL_STRING=5
+    OPERATOR_ADD=6
+    OPERATOR_SUBTR=7
+    OPERATOR_MULT=8
+    OPERATOR_DIV=9
+    OPERATOR_GTHAN=10
+    OPERATOR_LTHAN=11
+    OPERATOR_ASSIGN=12
+    SYMBOL_OPENPAR=13
+    SYMBOL_CLOSEPAR=14
+    SYMBOL_OPENBRACE=15
+    SYMBOL_CLOSEBRACE=16
+    SYMBOL_SEMICOLON=17
+    SYMBOL_COMMA=18
+    STRUCTURE_RETURNS=19
+    STRUCTURE_RETURN=20
+    FUNCTION_CPRINT=21
+    LITERAL_BOOL=22
+    LITERAL_NONE=23
+    ITEM_VARNAME=24
     TYPE_INTEGER=25
     TYPE_BOOL=26
     TYPE_NONE=27
     TYPE_STRING=28
     LITERAL_INTEGER=29
-    OPERATOR_ARITH=30
-    OPERATOR_CMP=31
-    SYMBOL=32
-    STRUCTURE=33
-    LITERAL=34
-    ITEM=35
-    TYPE=36
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -142,39 +157,383 @@ class BcodeParser ( Parser ):
 
 
 
-    class Start_Context(ParserRuleContext):
+    class Opr_arithContext(ParserRuleContext):
         __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def program(self):
-            return self.getTypedRuleContext(BcodeParser.ProgramContext,0)
+        def OPERATOR_ADD(self):
+            return self.getToken(BcodeParser.OPERATOR_ADD, 0)
 
+        def OPERATOR_SUBTR(self):
+            return self.getToken(BcodeParser.OPERATOR_SUBTR, 0)
+
+        def OPERATOR_MULT(self):
+            return self.getToken(BcodeParser.OPERATOR_MULT, 0)
+
+        def OPERATOR_DIV(self):
+            return self.getToken(BcodeParser.OPERATOR_DIV, 0)
 
         def getRuleIndex(self):
-            return BcodeParser.RULE_start_
+            return BcodeParser.RULE_opr_arith
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterStart_" ):
-                listener.enterStart_(self)
+            if hasattr( listener, "enterOpr_arith" ):
+                listener.enterOpr_arith(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitStart_" ):
-                listener.exitStart_(self)
+            if hasattr( listener, "exitOpr_arith" ):
+                listener.exitOpr_arith(self)
 
 
 
 
-    def start_(self):
+    def opr_arith(self):
 
-        localctx = BcodeParser.Start_Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 0, self.RULE_start_)
+        localctx = BcodeParser.Opr_arithContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 0, self.RULE_opr_arith)
+        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 20
-            self.program()
+            self.state = 34
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 960) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Opr_cmpContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def OPERATOR_GTHAN(self):
+            return self.getToken(BcodeParser.OPERATOR_GTHAN, 0)
+
+        def OPERATOR_LTHAN(self):
+            return self.getToken(BcodeParser.OPERATOR_LTHAN, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_opr_cmp
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterOpr_cmp" ):
+                listener.enterOpr_cmp(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitOpr_cmp" ):
+                listener.exitOpr_cmp(self)
+
+
+
+
+    def opr_cmp(self):
+
+        localctx = BcodeParser.Opr_cmpContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 2, self.RULE_opr_cmp)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 36
+            _la = self._input.LA(1)
+            if not(_la==10 or _la==11):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SymContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def SYMBOL_OPENPAR(self):
+            return self.getToken(BcodeParser.SYMBOL_OPENPAR, 0)
+
+        def SYMBOL_CLOSEPAR(self):
+            return self.getToken(BcodeParser.SYMBOL_CLOSEPAR, 0)
+
+        def SYMBOL_OPENBRACE(self):
+            return self.getToken(BcodeParser.SYMBOL_OPENBRACE, 0)
+
+        def SYMBOL_CLOSEBRACE(self):
+            return self.getToken(BcodeParser.SYMBOL_CLOSEBRACE, 0)
+
+        def SYMBOL_SEMICOLON(self):
+            return self.getToken(BcodeParser.SYMBOL_SEMICOLON, 0)
+
+        def SYMBOL_COMMA(self):
+            return self.getToken(BcodeParser.SYMBOL_COMMA, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_sym
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSym" ):
+                listener.enterSym(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSym" ):
+                listener.exitSym(self)
+
+
+
+
+    def sym(self):
+
+        localctx = BcodeParser.SymContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 4, self.RULE_sym)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 38
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 516096) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class StrContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def STRUCTURE_RETURNS(self):
+            return self.getToken(BcodeParser.STRUCTURE_RETURNS, 0)
+
+        def STRUCTURE_RETURN(self):
+            return self.getToken(BcodeParser.STRUCTURE_RETURN, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_str
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterStr" ):
+                listener.enterStr(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitStr" ):
+                listener.exitStr(self)
+
+
+
+
+    def str_(self):
+
+        localctx = BcodeParser.StrContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 6, self.RULE_str)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 40
+            _la = self._input.LA(1)
+            if not(_la==19 or _la==20):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class LitContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def LITERAL_BOOL(self):
+            return self.getToken(BcodeParser.LITERAL_BOOL, 0)
+
+        def LITERAL_NONE(self):
+            return self.getToken(BcodeParser.LITERAL_NONE, 0)
+
+        def LITERAL_STRING(self):
+            return self.getToken(BcodeParser.LITERAL_STRING, 0)
+
+        def LITERAL_INTEGER(self):
+            return self.getToken(BcodeParser.LITERAL_INTEGER, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_lit
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLit" ):
+                listener.enterLit(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLit" ):
+                listener.exitLit(self)
+
+
+
+
+    def lit(self):
+
+        localctx = BcodeParser.LitContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 8, self.RULE_lit)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 42
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 549453856) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ItmContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ITEM_VARNAME(self):
+            return self.getToken(BcodeParser.ITEM_VARNAME, 0)
+
+        def ITEM_COMMENT(self):
+            return self.getToken(BcodeParser.ITEM_COMMENT, 0)
+
+        def ITEM_WHITESPACE(self):
+            return self.getToken(BcodeParser.ITEM_WHITESPACE, 0)
+
+        def ITEM_NEWLINE(self):
+            return self.getToken(BcodeParser.ITEM_NEWLINE, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_itm
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterItm" ):
+                listener.enterItm(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitItm" ):
+                listener.exitItm(self)
+
+
+
+
+    def itm(self):
+
+        localctx = BcodeParser.ItmContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 10, self.RULE_itm)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 44
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 16777244) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class TypContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def TYPE_INTEGER(self):
+            return self.getToken(BcodeParser.TYPE_INTEGER, 0)
+
+        def TYPE_BOOL(self):
+            return self.getToken(BcodeParser.TYPE_BOOL, 0)
+
+        def TYPE_NONE(self):
+            return self.getToken(BcodeParser.TYPE_NONE, 0)
+
+        def TYPE_STRING(self):
+            return self.getToken(BcodeParser.TYPE_STRING, 0)
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_typ
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterTyp" ):
+                listener.enterTyp(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitTyp" ):
+                listener.exitTyp(self)
+
+
+
+
+    def typ(self):
+
+        localctx = BcodeParser.TypContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_typ)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 46
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 503316480) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -191,11 +550,12 @@ class BcodeParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def LITERAL(self, i:int=None):
+        def lit(self, i:int=None):
             if i is None:
-                return self.getTokens(BcodeParser.LITERAL)
+                return self.getTypedRuleContexts(BcodeParser.LitContext)
             else:
-                return self.getToken(BcodeParser.LITERAL, i)
+                return self.getTypedRuleContext(BcodeParser.LitContext,i)
+
 
         def ITEM_VARNAME(self, i:int=None):
             if i is None:
@@ -203,11 +563,12 @@ class BcodeParser ( Parser ):
             else:
                 return self.getToken(BcodeParser.ITEM_VARNAME, i)
 
-        def OPERATOR_ARITH(self, i:int=None):
+        def opr_arith(self, i:int=None):
             if i is None:
-                return self.getTokens(BcodeParser.OPERATOR_ARITH)
+                return self.getTypedRuleContexts(BcodeParser.Opr_arithContext)
             else:
-                return self.getToken(BcodeParser.OPERATOR_ARITH, i)
+                return self.getTypedRuleContext(BcodeParser.Opr_arithContext,i)
+
 
         def getRuleIndex(self):
             return BcodeParser.RULE_expr_arith
@@ -226,34 +587,48 @@ class BcodeParser ( Parser ):
     def expr_arith(self):
 
         localctx = BcodeParser.Expr_arithContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 2, self.RULE_expr_arith)
+        self.enterRule(localctx, 14, self.RULE_expr_arith)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 22
-            _la = self._input.LA(1)
-            if not(_la==22 or _la==34):
-                self._errHandler.recoverInline(self)
+            self.state = 50
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [5, 22, 23, 29]:
+                self.state = 48
+                self.lit()
+                pass
+            elif token in [24]:
+                self.state = 49
+                self.match(BcodeParser.ITEM_VARNAME)
+                pass
             else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-            self.state = 25 
+                raise NoViableAltException(self)
+
+            self.state = 57 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 23
-                self.match(BcodeParser.OPERATOR_ARITH)
-                self.state = 24
-                _la = self._input.LA(1)
-                if not(_la==22 or _la==34):
-                    self._errHandler.recoverInline(self)
+                self.state = 52
+                self.opr_arith()
+                self.state = 55
+                self._errHandler.sync(self)
+                token = self._input.LA(1)
+                if token in [5, 22, 23, 29]:
+                    self.state = 53
+                    self.lit()
+                    pass
+                elif token in [24]:
+                    self.state = 54
+                    self.match(BcodeParser.ITEM_VARNAME)
+                    pass
                 else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-                self.state = 27 
+                    raise NoViableAltException(self)
+
+                self.state = 59 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==30):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 960) != 0)):
                     break
 
         except RecognitionException as re:
@@ -272,14 +647,16 @@ class BcodeParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def OPERATOR_CMP(self):
-            return self.getToken(BcodeParser.OPERATOR_CMP, 0)
+        def opr_cmp(self):
+            return self.getTypedRuleContext(BcodeParser.Opr_cmpContext,0)
 
-        def LITERAL(self, i:int=None):
+
+        def lit(self, i:int=None):
             if i is None:
-                return self.getTokens(BcodeParser.LITERAL)
+                return self.getTypedRuleContexts(BcodeParser.LitContext)
             else:
-                return self.getToken(BcodeParser.LITERAL, i)
+                return self.getTypedRuleContext(BcodeParser.LitContext,i)
+
 
         def ITEM_VARNAME(self, i:int=None):
             if i is None:
@@ -304,26 +681,39 @@ class BcodeParser ( Parser ):
     def expr_cmp(self):
 
         localctx = BcodeParser.Expr_cmpContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_expr_cmp)
-        self._la = 0 # Token type
+        self.enterRule(localctx, 16, self.RULE_expr_cmp)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 29
-            _la = self._input.LA(1)
-            if not(_la==22 or _la==34):
-                self._errHandler.recoverInline(self)
+            self.state = 63
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [5, 22, 23, 29]:
+                self.state = 61
+                self.lit()
+                pass
+            elif token in [24]:
+                self.state = 62
+                self.match(BcodeParser.ITEM_VARNAME)
+                pass
             else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-            self.state = 30
-            self.match(BcodeParser.OPERATOR_CMP)
-            self.state = 31
-            _la = self._input.LA(1)
-            if not(_la==22 or _la==34):
-                self._errHandler.recoverInline(self)
+                raise NoViableAltException(self)
+
+            self.state = 65
+            self.opr_cmp()
+            self.state = 68
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [5, 22, 23, 29]:
+                self.state = 66
+                self.lit()
+                pass
+            elif token in [24]:
+                self.state = 67
+                self.match(BcodeParser.ITEM_VARNAME)
+                pass
             else:
-                self._errHandler.reportMatch(self)
-                self.consume()
+                raise NoViableAltException(self)
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -340,8 +730,9 @@ class BcodeParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def TYPE(self):
-            return self.getToken(BcodeParser.TYPE, 0)
+        def typ(self):
+            return self.getTypedRuleContext(BcodeParser.TypContext,0)
+
 
         def ITEM_VARNAME(self):
             return self.getToken(BcodeParser.ITEM_VARNAME, 0)
@@ -363,12 +754,12 @@ class BcodeParser ( Parser ):
     def var_def(self):
 
         localctx = BcodeParser.Var_defContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_var_def)
+        self.enterRule(localctx, 18, self.RULE_var_def)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 33
-            self.match(BcodeParser.TYPE)
-            self.state = 34
+            self.state = 70
+            self.typ()
+            self.state = 71
             self.match(BcodeParser.ITEM_VARNAME)
         except RecognitionException as re:
             localctx.exception = re
@@ -393,8 +784,9 @@ class BcodeParser ( Parser ):
         def OPERATOR_ASSIGN(self):
             return self.getToken(BcodeParser.OPERATOR_ASSIGN, 0)
 
-        def LITERAL(self):
-            return self.getToken(BcodeParser.LITERAL, 0)
+        def lit(self):
+            return self.getTypedRuleContext(BcodeParser.LitContext,0)
+
 
         def SYMBOL_OPENPAR(self):
             return self.getToken(BcodeParser.SYMBOL_OPENPAR, 0)
@@ -427,49 +819,49 @@ class BcodeParser ( Parser ):
     def var_asg(self):
 
         localctx = BcodeParser.Var_asgContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_var_asg)
+        self.enterRule(localctx, 20, self.RULE_var_asg)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 36
+            self.state = 73
             self.var_def()
-            self.state = 37
+            self.state = 74
             self.match(BcodeParser.OPERATOR_ASSIGN)
-            self.state = 48
+            self.state = 85
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
             if la_ == 1:
-                self.state = 38
-                self.match(BcodeParser.LITERAL)
+                self.state = 75
+                self.lit()
                 pass
 
             elif la_ == 2:
-                self.state = 39
+                self.state = 76
                 self.match(BcodeParser.SYMBOL_OPENPAR)
-                self.state = 42
+                self.state = 79
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,1,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
                 if la_ == 1:
-                    self.state = 40
+                    self.state = 77
                     self.expr_arith()
                     pass
 
                 elif la_ == 2:
-                    self.state = 41
+                    self.state = 78
                     self.expr_cmp()
                     pass
 
 
-                self.state = 44
+                self.state = 81
                 self.match(BcodeParser.SYMBOL_CLOSEPAR)
                 pass
 
             elif la_ == 3:
-                self.state = 46
+                self.state = 83
                 self.expr_arith()
                 pass
 
             elif la_ == 4:
-                self.state = 47
+                self.state = 84
                 self.expr_cmp()
                 pass
 
@@ -496,8 +888,9 @@ class BcodeParser ( Parser ):
         def OPERATOR_ASSIGN(self):
             return self.getToken(BcodeParser.OPERATOR_ASSIGN, 0)
 
-        def LITERAL(self):
-            return self.getToken(BcodeParser.LITERAL, 0)
+        def lit(self):
+            return self.getTypedRuleContext(BcodeParser.LitContext,0)
+
 
         def SYMBOL_OPENPAR(self):
             return self.getToken(BcodeParser.SYMBOL_OPENPAR, 0)
@@ -530,49 +923,49 @@ class BcodeParser ( Parser ):
     def var_reasg(self):
 
         localctx = BcodeParser.Var_reasgContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_var_reasg)
+        self.enterRule(localctx, 22, self.RULE_var_reasg)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 50
+            self.state = 87
             self.match(BcodeParser.ITEM_VARNAME)
-            self.state = 51
+            self.state = 88
             self.match(BcodeParser.OPERATOR_ASSIGN)
-            self.state = 62
+            self.state = 99
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,4,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
             if la_ == 1:
-                self.state = 52
-                self.match(BcodeParser.LITERAL)
+                self.state = 89
+                self.lit()
                 pass
 
             elif la_ == 2:
-                self.state = 53
+                self.state = 90
                 self.match(BcodeParser.SYMBOL_OPENPAR)
-                self.state = 56
+                self.state = 93
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
                 if la_ == 1:
-                    self.state = 54
+                    self.state = 91
                     self.expr_arith()
                     pass
 
                 elif la_ == 2:
-                    self.state = 55
+                    self.state = 92
                     self.expr_cmp()
                     pass
 
 
-                self.state = 58
+                self.state = 95
                 self.match(BcodeParser.SYMBOL_CLOSEPAR)
                 pass
 
             elif la_ == 3:
-                self.state = 60
+                self.state = 97
                 self.expr_arith()
                 pass
 
             elif la_ == 4:
-                self.state = 61
+                self.state = 98
                 self.expr_cmp()
                 pass
 
@@ -602,11 +995,12 @@ class BcodeParser ( Parser ):
         def SYMBOL_CLOSEPAR(self):
             return self.getToken(BcodeParser.SYMBOL_CLOSEPAR, 0)
 
-        def LITERAL(self, i:int=None):
+        def lit(self, i:int=None):
             if i is None:
-                return self.getTokens(BcodeParser.LITERAL)
+                return self.getTypedRuleContexts(BcodeParser.LitContext)
             else:
-                return self.getToken(BcodeParser.LITERAL, i)
+                return self.getTypedRuleContext(BcodeParser.LitContext,i)
+
 
         def ITEM_VARNAME(self, i:int=None):
             if i is None:
@@ -631,30 +1025,37 @@ class BcodeParser ( Parser ):
     def fnc_cprint(self):
 
         localctx = BcodeParser.Fnc_cprintContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_fnc_cprint)
+        self.enterRule(localctx, 24, self.RULE_fnc_cprint)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 64
+            self.state = 101
             self.match(BcodeParser.FUNCTION_CPRINT)
-            self.state = 65
+            self.state = 102
             self.match(BcodeParser.SYMBOL_OPENPAR)
-            self.state = 69
+            self.state = 107
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==22 or _la==34:
-                self.state = 66
-                _la = self._input.LA(1)
-                if not(_la==22 or _la==34):
-                    self._errHandler.recoverInline(self)
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 566231072) != 0):
+                self.state = 105
+                self._errHandler.sync(self)
+                token = self._input.LA(1)
+                if token in [5, 22, 23, 29]:
+                    self.state = 103
+                    self.lit()
+                    pass
+                elif token in [24]:
+                    self.state = 104
+                    self.match(BcodeParser.ITEM_VARNAME)
+                    pass
                 else:
-                    self._errHandler.reportMatch(self)
-                    self.consume()
-                self.state = 71
+                    raise NoViableAltException(self)
+
+                self.state = 109
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 72
+            self.state = 110
             self.match(BcodeParser.SYMBOL_CLOSEPAR)
         except RecognitionException as re:
             localctx.exception = re
@@ -675,8 +1076,12 @@ class BcodeParser ( Parser ):
         def STRUCTURE_RETURN(self):
             return self.getToken(BcodeParser.STRUCTURE_RETURN, 0)
 
-        def LITERAL(self):
-            return self.getToken(BcodeParser.LITERAL, 0)
+        def SYMBOL_SEMICOLON(self):
+            return self.getToken(BcodeParser.SYMBOL_SEMICOLON, 0)
+
+        def lit(self):
+            return self.getTypedRuleContext(BcodeParser.LitContext,0)
+
 
         def ITEM_VARNAME(self):
             return self.getToken(BcodeParser.ITEM_VARNAME, 0)
@@ -706,35 +1111,37 @@ class BcodeParser ( Parser ):
     def stm_return(self):
 
         localctx = BcodeParser.Stm_returnContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_stm_return)
+        self.enterRule(localctx, 26, self.RULE_stm_return)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 74
+            self.state = 112
             self.match(BcodeParser.STRUCTURE_RETURN)
-            self.state = 79
+            self.state = 117
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
-                self.state = 75
-                self.match(BcodeParser.LITERAL)
+                self.state = 113
+                self.lit()
                 pass
 
             elif la_ == 2:
-                self.state = 76
+                self.state = 114
                 self.match(BcodeParser.ITEM_VARNAME)
                 pass
 
             elif la_ == 3:
-                self.state = 77
+                self.state = 115
                 self.expr_arith()
                 pass
 
             elif la_ == 4:
-                self.state = 78
+                self.state = 116
                 self.expr_cmp()
                 pass
 
 
+            self.state = 119
+            self.match(BcodeParser.SYMBOL_SEMICOLON)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -778,10 +1185,6 @@ class BcodeParser ( Parser ):
             return self.getTypedRuleContext(BcodeParser.Fnc_cprintContext,0)
 
 
-        def stm_return(self):
-            return self.getTypedRuleContext(BcodeParser.Stm_returnContext,0)
-
-
         def getRuleIndex(self):
             return BcodeParser.RULE_statement
 
@@ -799,49 +1202,44 @@ class BcodeParser ( Parser ):
     def statement(self):
 
         localctx = BcodeParser.StatementContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_statement)
+        self.enterRule(localctx, 28, self.RULE_statement)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 88
+            self.state = 127
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,12,self._ctx)
             if la_ == 1:
-                self.state = 81
+                self.state = 121
                 self.expr_arith()
                 pass
 
             elif la_ == 2:
-                self.state = 82
+                self.state = 122
                 self.expr_cmp()
                 pass
 
             elif la_ == 3:
-                self.state = 83
+                self.state = 123
                 self.var_def()
                 pass
 
             elif la_ == 4:
-                self.state = 84
+                self.state = 124
                 self.var_asg()
                 pass
 
             elif la_ == 5:
-                self.state = 85
+                self.state = 125
                 self.var_reasg()
                 pass
 
             elif la_ == 6:
-                self.state = 86
+                self.state = 126
                 self.fnc_cprint()
                 pass
 
-            elif la_ == 7:
-                self.state = 87
-                self.stm_return()
-                pass
 
-
-            self.state = 90
+            self.state = 129
             self.match(BcodeParser.SYMBOL_SEMICOLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -859,9 +1257,6 @@ class BcodeParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def STRUCTURE_PROGRAM(self):
-            return self.getToken(BcodeParser.STRUCTURE_PROGRAM, 0)
-
         def ITEM_VARNAME(self):
             return self.getToken(BcodeParser.ITEM_VARNAME, 0)
 
@@ -874,8 +1269,9 @@ class BcodeParser ( Parser ):
         def STRUCTURE_RETURNS(self):
             return self.getToken(BcodeParser.STRUCTURE_RETURNS, 0)
 
-        def TYPE(self):
-            return self.getToken(BcodeParser.TYPE, 0)
+        def typ(self):
+            return self.getTypedRuleContext(BcodeParser.TypContext,0)
+
 
         def SYMBOL_OPENBRACE(self):
             return self.getToken(BcodeParser.SYMBOL_OPENBRACE, 0)
@@ -889,9 +1285,6 @@ class BcodeParser ( Parser ):
 
         def SYMBOL_SEMICOLON(self):
             return self.getToken(BcodeParser.SYMBOL_SEMICOLON, 0)
-
-        def EOF(self):
-            return self.getToken(BcodeParser.EOF, 0)
 
         def var_def(self, i:int=None):
             if i is None:
@@ -930,61 +1323,101 @@ class BcodeParser ( Parser ):
     def program(self):
 
         localctx = BcodeParser.ProgramContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_program)
+        self.enterRule(localctx, 30, self.RULE_program)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 92
-            self.match(BcodeParser.STRUCTURE_PROGRAM)
-            self.state = 93
+            self.state = 131
+            self.match(BcodeParser.T__0)
+            self.state = 132
             self.match(BcodeParser.ITEM_VARNAME)
-            self.state = 94
+            self.state = 133
             self.match(BcodeParser.SYMBOL_OPENPAR)
-            self.state = 101
+            self.state = 140
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==36:
-                self.state = 95
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 503316480) != 0):
+                self.state = 134
                 self.var_def()
-                self.state = 97
+                self.state = 136
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==15:
-                    self.state = 96
+                if _la==18:
+                    self.state = 135
                     self.match(BcodeParser.SYMBOL_COMMA)
 
 
-                self.state = 103
+                self.state = 142
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 104
+            self.state = 143
             self.match(BcodeParser.SYMBOL_CLOSEPAR)
-            self.state = 105
+            self.state = 144
             self.match(BcodeParser.STRUCTURE_RETURNS)
-            self.state = 106
-            self.match(BcodeParser.TYPE)
-            self.state = 107
+            self.state = 145
+            self.typ()
+            self.state = 146
             self.match(BcodeParser.SYMBOL_OPENBRACE)
-            self.state = 111
+            self.state = 150
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 108
+            _alt = self._interp.adaptivePredict(self._input,15,self._ctx)
+            while _alt!=1 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1+1:
+                    self.state = 147
                     self.statement() 
-                self.state = 113
+                self.state = 152
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,15,self._ctx)
 
-            self.state = 114
+            self.state = 153
             self.stm_return()
-            self.state = 115
+            self.state = 154
             self.match(BcodeParser.SYMBOL_CLOSEBRACE)
-            self.state = 116
+            self.state = 155
             self.match(BcodeParser.SYMBOL_SEMICOLON)
-            self.state = 117
-            self.match(BcodeParser.EOF)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class Start_Context(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def program(self):
+            return self.getTypedRuleContext(BcodeParser.ProgramContext,0)
+
+
+        def getRuleIndex(self):
+            return BcodeParser.RULE_start_
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterStart_" ):
+                listener.enterStart_(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitStart_" ):
+                listener.exitStart_(self)
+
+
+
+
+    def start_(self):
+
+        localctx = BcodeParser.Start_Context(self, self._ctx, self.state)
+        self.enterRule(localctx, 32, self.RULE_start_)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 157
+            self.program()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
