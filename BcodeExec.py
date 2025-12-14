@@ -56,13 +56,17 @@ class BcodeExec(BcodeListener):
         name = typename.getChild(1).getText()
         value = ctx.getChild(2).getText()
 
+        if (len(value) != 0 and value != None and value[0] == '\"'):
+            value = value[1:len(value)-1]
+
         BcodeExec.active_vars[name] = value
 
     def exitVar_reasg(self, ctx:BcodeParser.Var_reasgContext):
         pass
 
     def exitVar(self, ctx:BcodeParser.VarContext):
-        return BcodeExec.active_vars[ctx.getChild(0).getText()]
+        if ctx.getChild(0).getText() in BcodeExec.active_vars:
+            return BcodeExec.active_vars[ctx.getChild(0).getText()]
 
     def exitFnc_cprint(self, ctx:BcodeParser.Fnc_cprintContext):
         litvar = ctx.getChild(2).getText()
