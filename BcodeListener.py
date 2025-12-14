@@ -53,12 +53,12 @@ class BcodeListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by BcodeParser#itm.
-    def enterItm(self, ctx:BcodeParser.ItmContext):
+    # Enter a parse tree produced by BcodeParser#var.
+    def enterVar(self, ctx:BcodeParser.VarContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#itm.
-    def exitItm(self, ctx:BcodeParser.ItmContext):
+    # Exit a parse tree produced by BcodeParser#var.
+    def exitVar(self, ctx:BcodeParser.VarContext):
         pass
 
 
