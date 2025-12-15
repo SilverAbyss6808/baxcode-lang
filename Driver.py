@@ -5,8 +5,8 @@ from BcodeParser import BcodeParser
 from BcodeExec import BcodeExec
 
 def main(argv):
-    # input_stream = FileStream(argv[1])
-    input_stream = FileStream('bco_examples/TestImplemented.bco')
+    input_stream = FileStream(argv[1])
+    # input_stream = FileStream('bco_examples/TestImplemented.bco')
     lexer = BcodeLexer(input_stream)
     stream = CommonTokenStream(lexer)
     parser = BcodeParser(stream)

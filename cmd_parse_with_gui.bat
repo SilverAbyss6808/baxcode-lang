@@ -1,0 +1,1 @@
+antlr4-parse Bcode.g4 program -gui bco_examples\TestImplemented.bco

@@ -1,0 +1,1 @@
+antlr4-parse Bcode.g4 program -tokens -trace bco_examples\TestImplemented.bco

@@ -1,8 +1,8 @@
 
-program HelloWorld() returns NONE {
+program HelloWorld() returns none {
     
     cprint("Hello World!");  // this is a comment
-    return;
+    return NONE;
 
 };
 

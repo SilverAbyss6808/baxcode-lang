@@ -26,12 +26,12 @@ class BcodeListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by BcodeParser#statement.
-    def enterStatement(self, ctx:BcodeParser.StatementContext):
+    # Enter a parse tree produced by BcodeParser#fnc_cprint.
+    def enterFnc_cprint(self, ctx:BcodeParser.Fnc_cprintContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#statement.
-    def exitStatement(self, ctx:BcodeParser.StatementContext):
+    # Exit a parse tree produced by BcodeParser#fnc_cprint.
+    def exitFnc_cprint(self, ctx:BcodeParser.Fnc_cprintContext):
         pass
 
 
@@ -44,12 +44,12 @@ class BcodeListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by BcodeParser#expr_cmp.
-    def enterExpr_cmp(self, ctx:BcodeParser.Expr_cmpContext):
+    # Enter a parse tree produced by BcodeParser#var_asg.
+    def enterVar_asg(self, ctx:BcodeParser.Var_asgContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#expr_cmp.
-    def exitExpr_cmp(self, ctx:BcodeParser.Expr_cmpContext):
+    # Exit a parse tree produced by BcodeParser#var_asg.
+    def exitVar_asg(self, ctx:BcodeParser.Var_asgContext):
         pass
 
 
@@ -62,30 +62,21 @@ class BcodeListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by BcodeParser#var_asg.
-    def enterVar_asg(self, ctx:BcodeParser.Var_asgContext):
+    # Enter a parse tree produced by BcodeParser#var.
+    def enterVar(self, ctx:BcodeParser.VarContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#var_asg.
-    def exitVar_asg(self, ctx:BcodeParser.Var_asgContext):
-        pass
-
-
-    # Enter a parse tree produced by BcodeParser#var_reasg.
-    def enterVar_reasg(self, ctx:BcodeParser.Var_reasgContext):
-        pass
-
-    # Exit a parse tree produced by BcodeParser#var_reasg.
-    def exitVar_reasg(self, ctx:BcodeParser.Var_reasgContext):
+    # Exit a parse tree produced by BcodeParser#var.
+    def exitVar(self, ctx:BcodeParser.VarContext):
         pass
 
 
-    # Enter a parse tree produced by BcodeParser#fnc_cprint.
-    def enterFnc_cprint(self, ctx:BcodeParser.Fnc_cprintContext):
+    # Enter a parse tree produced by BcodeParser#lit.
+    def enterLit(self, ctx:BcodeParser.LitContext):
         pass
 
-    # Exit a parse tree produced by BcodeParser#fnc_cprint.
-    def exitFnc_cprint(self, ctx:BcodeParser.Fnc_cprintContext):
+    # Exit a parse tree produced by BcodeParser#lit.
+    def exitLit(self, ctx:BcodeParser.LitContext):
         pass
 
 
@@ -95,6 +86,15 @@ class BcodeListener(ParseTreeListener):
 
     # Exit a parse tree produced by BcodeParser#stm_return.
     def exitStm_return(self, ctx:BcodeParser.Stm_returnContext):
+        pass
+
+
+    # Enter a parse tree produced by BcodeParser#line.
+    def enterLine(self, ctx:BcodeParser.LineContext):
+        pass
+
+    # Exit a parse tree produced by BcodeParser#line.
+    def exitLine(self, ctx:BcodeParser.LineContext):
         pass
 
 
@@ -113,42 +113,6 @@ class BcodeListener(ParseTreeListener):
 
     # Exit a parse tree produced by BcodeParser#opr_cmp.
     def exitOpr_cmp(self, ctx:BcodeParser.Opr_cmpContext):
-        pass
-
-
-    # Enter a parse tree produced by BcodeParser#sym.
-    def enterSym(self, ctx:BcodeParser.SymContext):
-        pass
-
-    # Exit a parse tree produced by BcodeParser#sym.
-    def exitSym(self, ctx:BcodeParser.SymContext):
-        pass
-
-
-    # Enter a parse tree produced by BcodeParser#str.
-    def enterStr(self, ctx:BcodeParser.StrContext):
-        pass
-
-    # Exit a parse tree produced by BcodeParser#str.
-    def exitStr(self, ctx:BcodeParser.StrContext):
-        pass
-
-
-    # Enter a parse tree produced by BcodeParser#lit.
-    def enterLit(self, ctx:BcodeParser.LitContext):
-        pass
-
-    # Exit a parse tree produced by BcodeParser#lit.
-    def exitLit(self, ctx:BcodeParser.LitContext):
-        pass
-
-
-    # Enter a parse tree produced by BcodeParser#var.
-    def enterVar(self, ctx:BcodeParser.VarContext):
-        pass
-
-    # Exit a parse tree produced by BcodeParser#var.
-    def exitVar(self, ctx:BcodeParser.VarContext):
         pass
 
 
