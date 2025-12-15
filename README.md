@@ -10,7 +10,7 @@ The compiler currently supports the following expressions:
 * Comments
 
 # How to Use:
-1. Download the source code ZIP file from [here]().
+1. Download the most recent source code ZIP file from [here](https://github.com/SilverAbyss6808/baxcode-lang/releases/).
 2. Unzip it wherever you want. Don't modify or move any existing files. 
 3. Create a new text file in that folder (or wherever you want, it's just easiest if you put it here). Save it with the .bco extension.
 4. Write your code in the file, then save and close it.
