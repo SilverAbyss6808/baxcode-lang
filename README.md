@@ -16,4 +16,4 @@ The compiler currently supports the following expressions:
 4. Write your code in the file, then save and close it.
 5. Right-click in the folder and open a terminal. Double-check Python is usable with `py -V`.
 6. Run the command `py Driver.py your_file.bco`. You should see any console output you wrote in the code appear. (You can use the full paths to both files if you want to run it from somewhere else, it's just easier to run it all from here IMO). Alternaatively, you can run an example file in the `bco_examples` folder.
-## A brief video walkthrough can be found [here](https://drive.google.com/file/d/1Ahh_6VW9tKY7JYgm0PL0vGkDGg-jOswG/view).
+## A brief video walkthrough can be found [here](https://drive.google.com/file/d/1Rp_4U8xN2PqfEwSCaTDauwFA7ba8aFcc/).
